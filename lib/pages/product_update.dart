@@ -93,7 +93,7 @@ class UpdateProductPage extends StatelessWidget {
                 controller: codeController,
                 keyboardType: TextInputType.number,
                 // readOnly: true,
-                maxLength: 10,
+                // maxLength: 10,
                 decoration: InputDecoration(
                     label: const Text("Kode Produk"),
                     border: OutlineInputBorder(
@@ -122,7 +122,7 @@ class UpdateProductPage extends StatelessWidget {
               const SizedBox(height: 30),
               TextField(
                 autocorrect: false,
-                maxLength: 10,
+                // maxLength: 10,
                 controller: skuController,
                 decoration: InputDecoration(
                     labelText: 'SKU',
@@ -132,7 +132,7 @@ class UpdateProductPage extends StatelessWidget {
               const SizedBox(height: 10),
               TextField(
                 autocorrect: false,
-                maxLength: 25,
+                // maxLength: 25,
                 controller: snController,
                 decoration: InputDecoration(
                     labelText: 'SN',
@@ -142,7 +142,7 @@ class UpdateProductPage extends StatelessWidget {
               const SizedBox(height: 10),
               TextField(
                 autocorrect: false,
-                maxLength: 20,
+                // maxLength: 20,
                 controller: lisensiController,
                 decoration: InputDecoration(
                     labelText: 'Lisensi',
@@ -152,7 +152,7 @@ class UpdateProductPage extends StatelessWidget {
               const SizedBox(height: 10),
               TextField(
                 autocorrect: false,
-                maxLength: 20,
+                // maxLength: 20,
                 controller: lisensi2Controller,
                 decoration: InputDecoration(
                     labelText: 'Lisensi 2',
